@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/fragment1"
         android:name="com.devansh.testappwi.FragmentEmpty"
-        tools:layout="@layout/empty_layout" >
+        tools:layout="@layout/fragment1" >
     </fragment>
 
     <fragment
@@ -26,5 +26,10 @@
         android:name="com.devansh.testappwi.Fragment1"
 
         tools:layout="@layout/fragment1" />
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="com.devansh.testappwi.Fragment1"
+
+        tools:layout="@layout/fragment3" />
 
 </navigation>
